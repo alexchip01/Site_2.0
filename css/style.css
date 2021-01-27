@@ -39,7 +39,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 .wrapper {
 	max-width: 1510px;
-	max-height: 1080px;
 	margin: 0 auto;
 }
 .header {
@@ -346,7 +345,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 		right: -100%;
 		width: 100%;
 		height: 100%;
-		padding-top: 156px;
+		margin: 0;
+		padding-top: 206px;
 		list-style: none;
 		background-color: #fff;
 		transition-duration: .25s;
